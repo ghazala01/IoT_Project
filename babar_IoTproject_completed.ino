@@ -29,7 +29,8 @@ Adafruit_Sensor *bmp_pressure = bmp.getPressureSensor();
 
 // This function sends Arduino's up time every second to Virtual Pin (5).
 // In the app, Widget's reading frequency should be set to PUSH. This means
-// that you define how often to send data to Blynk App.
+// Blynk App is used to send data.
+
 
 void sendSensor()
 {
